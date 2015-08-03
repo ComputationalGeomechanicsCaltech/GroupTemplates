@@ -1,0 +1,16 @@
+Caltech letter head latex class for Mechanical and Civil Engineering department.
+
+This repository was created based on Dr. Kim Borders existing class for HSS.
+It is essentially a direct copy with modifications for Mechanical and Civil Engineering.
+The website for the original source content is http://people.hss.caltech.edu/~kcb/LaTeX.shtml
+
+This class will be released with the following caveats, which are the exact words on the source website.
+You may freely copy and use these files.
+You may give them away free to anyone.
+You may freely modify them, as long as you change the name of the files.
+
+Notes about using this class:
+1)  XeTex or XeLatex must be used for the fontspec.sty class.
+2)  A good source for using the class is the document at http://people.hss.caltech.edu/~kcb/TeX/hss/HSSCorrespondenceDoc.pdf.
+3)  Note that the name of the class has been changed to MCECorrespondence, so make the respective changes in the sample files in the above document.
+4)  A couple of free open source fonts are provided that may need to be installed on your computer, depending on your system.
