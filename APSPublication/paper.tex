@@ -22,6 +22,7 @@
 %  Add 'showpacs' option to make PACS codes appear
 %  Add 'showkeys' option to make keywords appear
 \documentclass[aps,prl,preprint,groupedaddress,linenumbers]{revtex4-1}
+\usepackage{graphicx}
 %\documentclass[aps,prl,preprint,superscriptaddress]{revtex4-1}
 %\documentclass[aps,prl,reprint,groupedaddress]{revtex4-1}
 
@@ -107,7 +108,7 @@ Need to write...
 
 \section[\label{sec:conclusions}]{Conclusions}
 
-Need to write...
+Need to write... here is a sample figure \ref{fig:sample}.
 
 % figures should be put into the text as floats.
 % Use the graphics or graphicx packages (distributed with LaTeX2e)
@@ -121,10 +122,10 @@ Need to write...
 % Use the figure* environment if the figure should span across the
 % entire page. There is no need to do explicit centering.
 
-% \begin{figure}
-% \includegraphics{}%
-% \caption{\label{}}
-% \end{figure}
+\begin{figure}
+ \includegraphics[]{./figures/test-double-column.eps}%
+ \caption{\label{fig:sample} Sample figure.}
+ \end{figure}
 
 % Surround figure environment with turnpage environment for landscape
 % figure
